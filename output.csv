@@ -1,0 +1,3 @@
+domain,hasMX,hasSPF,spfRecord,hasDMARC,dmarcRecord
+gmail.com,true,true,v=spf1 redirect=_spf.google.com,true,v=DMARC1; p=none; sp=quarantine; rua=mailto:mailauth-reports@google.com
+example.com,true,true,v=spf1 -all,false,NULL
